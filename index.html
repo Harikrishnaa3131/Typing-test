@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Typing Speed Test </title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+			
+		<div id="startWindow">
+			<div class="modalBox">
+				<h1>Typing Speed Test</h1>
+				<p>It just takes a minute to test your typing speed! Timer will only start after you begin typing.If you are  a beginner and doesnt know about touch typing.Learn here!! <a href="https://youtu.be/vXsutlz0GIQ" target="_blank">touch typing</a> </p>
+				<button id="startButton">Start Test</button>
+			</div>
+		</div>
+
+		<div id="timer">
+		</div>
+
+		<div id="wrapper">
+
+		<div id="paraContainer">
+			<p id="testPara"></p>
+		</div>
+
+		​<textarea id="textArea" name="textarea" rows="5" cols="50" onPaste="return false" placeholder="Timer will only start after you begin typing."></textarea>
+
+		</div>
+
+		<div id="newTestWindow">
+			<div class="modalBox">
+				<h1>Time's Up!</h1>
+				<p id="finalScore"></p>
+				<button id="newTestButton">Click to try again!</button>
+			</div>
+		</div>
+
+	<script type="text/javascript" src="game.js"></script>
+	</body>
+</html>
